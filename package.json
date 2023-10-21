@@ -7,7 +7,7 @@
     "start": "app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "angel",
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.1.9",

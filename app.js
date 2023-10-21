@@ -24,7 +24,7 @@ app.use('/blogs', blogRoutes)
 
 //mongodb connection string
 // const mongoUri = "mongodb+srv://angel:angel@cluster0.xdftpmk.mongodb.net/blogDB?retryWrites=true"
-const mongoUri = "mongodb://127.0.0.1:27017/blogDB"
+// const mongoUri = "mongodb://127.0.0.1:27017/blogDB"
 
 //connect mongoose to the express server
 mongoose.connect(mongoUri).then((connect) => {
